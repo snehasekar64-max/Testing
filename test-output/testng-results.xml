@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-19T15:37:25 IST" name="Default suite" finished-at="2025-11-19T15:37:29 IST" duration-ms="3940">
+    <groups>
+    </groups>
+    <test started-at="2025-11-19T15:37:25 IST" name="Default test" finished-at="2025-11-19T15:37:29 IST" duration-ms="3940">
+      <class name="com.parallel.Test2">
+        <test-method signature="chrome2()[pri:0, instance:com.parallel.Test2@477b4cdf]" started-at="2025-11-19T15:37:25 IST" name="chrome2" finished-at="2025-11-19T15:37:29 IST" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome2 -->
+      </class> <!-- com.parallel.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ClassLevelParallel" parallel="classes" thread-count="2">
+
+  <test name="ParallelClasses">
+    <classes>
+      <class name="parallel.Test1"/>
+      <class name="parallel.Test2"/>
+    </classes>
+  </test>
+
+</suite>
+
