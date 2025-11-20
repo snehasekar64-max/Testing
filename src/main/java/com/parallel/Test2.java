@@ -9,13 +9,16 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Test2 {
 
-    @Test
-    public void chrome2() {
-        WebDriverManager.chromedriver().setup();     
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://google.com");
-        System.out.println("chrome Launched from 2");
-        driver.quit();
-    }
-}
+	@Test
+	public void edge() {
+		System.setProperty("webdriver.edge.driver",
+			    "C:\\Users\\HARIBALA\\Downloads\\edgedriver_win64\\msedgedriver.exe");
 
+			WebDriver driver = new EdgeDriver();
+			driver.get("https://google.com");
+			System.out.println("Edge launched");
+			//driver.quit();
+
+
+	}
+	}

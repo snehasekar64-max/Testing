@@ -15,7 +15,7 @@ public class Test1 {
 	        WebDriver driver = new ChromeDriver();
 	        driver.get("https://google.com");
 	        System.out.println("Chrome Launched from 1");
-	        driver.quit();
+	        
 	    }
 
 }
