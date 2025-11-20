@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-19T15:37:25 IST" name="Default suite" finished-at="2025-11-19T15:37:29 IST" duration-ms="3940">
+  <suite started-at="2025-11-20T09:31:43 IST" name="ClassLevelParallel" finished-at="2025-11-20T09:31:47 IST" duration-ms="3448">
     <groups>
     </groups>
-    <test started-at="2025-11-19T15:37:25 IST" name="Default test" finished-at="2025-11-19T15:37:29 IST" duration-ms="3940">
+    <test started-at="2025-11-20T09:31:43 IST" name="ParallelClasses" finished-at="2025-11-20T09:31:47 IST" duration-ms="3448">
       <class name="com.parallel.Test2">
-        <test-method signature="chrome2()[pri:0, instance:com.parallel.Test2@477b4cdf]" started-at="2025-11-19T15:37:25 IST" name="chrome2" finished-at="2025-11-19T15:37:29 IST" duration-ms="3887" status="PASS">
+        <test-method signature="chrome2()[pri:0, instance:com.parallel.Test2@9d5509a]" started-at="2025-11-20T09:31:43 IST" name="chrome2" finished-at="2025-11-20T09:31:47 IST" duration-ms="3387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chrome2 -->
       </class> <!-- com.parallel.Test2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.parallel.Test1">
+        <test-method signature="launchChrome()[pri:0, instance:com.parallel.Test1@f5958c9]" started-at="2025-11-20T09:31:43 IST" name="launchChrome" finished-at="2025-11-20T09:31:47 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+      </class> <!-- com.parallel.Test1 -->
+    </test> <!-- ParallelClasses -->
+  </suite> <!-- ClassLevelParallel -->
 </testng-results>

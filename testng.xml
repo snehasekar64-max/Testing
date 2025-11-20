@@ -3,10 +3,11 @@
 
   <test name="ParallelClasses">
     <classes>
-      <class name="parallel.Test1"/>
-      <class name="parallel.Test2"/>
+      <class name="com.parallel.Test1"/>
+      <class name="com.parallel.Test2"/>
     </classes>
   </test>
 
 </suite>
+
 
