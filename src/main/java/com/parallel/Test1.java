@@ -9,6 +9,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Test1 {
 	 @Test
 	    public void launchChrome() {
+		 
+		 System.out.println("Test");
 	        WebDriverManager.chromedriver().setup();
 	        WebDriver driver = new ChromeDriver();
 	        driver.get("https://google.com");
